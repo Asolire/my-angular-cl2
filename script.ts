@@ -1,0 +1,1 @@
+console.log("Presione dos veces para editar texto");
