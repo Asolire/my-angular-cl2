@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --variable-parrafo: 0.5rem;
+  --color1: #2F5A87;
+  --color2: #FFFFFF;
+  --color3: #000000;
+  --color4: #625074;
+  --colores-div-general: #4caad6;
+  --colores-div-secundario:rgb(65, 253, 65)6;
+  --ancho-div-general: 500px;
+  --margen-div-general: auto;
+  --ancho-div-sec: 300px;
+  --margen-div-sec: auto;
+  --alinear-div-general: 20px;
+  --float-div-general: left;
+  --float-div-sec: right;
+}
+
+html,body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    color: var(--color1);
+    font-size: var(--variable-parrafo);
+}
+
+th{
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+td{
+    color: var(--color2);
+    background-color: var(--color4);
+}
+
+.general{
+    background-color: var(--colores-div-general);
+    width:var(--ancho-div-general);
+    margin:var(--margen-div-general);
+    align-self: var(--float-div-general);
+}
+
+.subitem{
+    background-color: var(--colores-div-secundario);
+    width:var(--ancho-div-sec);
+    margin:var(--margen-div-sec);
+    align-self: var(--float-div-sec);
+}
+.extra{
+    background-color: var(--colores-div-secundario);
+    align-self: var(--float-div-sec);
+}
