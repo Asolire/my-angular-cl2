@@ -1,1 +1,0 @@
-console.log("Presione tres veces para editar texto");
